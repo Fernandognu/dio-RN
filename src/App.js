@@ -15,8 +15,8 @@ const colorFontGithub = '#C9D1D9';
 const colorDarkFontGithub = '#4F565E';
 
 const imageProfileGithub =
-  'https://avatars.githubusercontent.com/u/28990749?v=4';
-const urlToMyGithub = 'https://github.com/ismaelsousa';
+  'https://avatars.githubusercontent.com/u/44807284?v=4';
+const urlToMyGithub = 'https://github.com/Fernandognu';
 
 const App = () => {
   const handlePressGoToGithub = async () => {
@@ -34,26 +34,24 @@ const App = () => {
       <StatusBar backgroundColor={colorGithub} barStyle="light-content" />
       <View style={style.content}>
         <Image
-          accessibilityLabel="Ismael no quarto com fundo azul"
+          accessibilityLabel="Fernando no quarto com fundo branco"
           style={style.avatar}
           source={{uri: imageProfileGithub}}
         />
         <Text
-          accessibilityLabel="Nome: ismael moreira"
+          accessibilityLabel="Nome: Fernando Garcia"
           style={[style.defaultText, style.name]}>
-          Ismael Moreira
+          Fernando Garcia
         </Text>
         <Text
-          accessibilityLabel="Nickname: ismael sousa"
+          accessibilityLabel="Nickname: fernando gnu"
           style={[style.defaultText, style.nickname]}>
-          ismaelsousa
+          fernandognu
         </Text>
         <Text
-          accessibilityLabel="Descrição: Software engineer | Leader tech at Fleye | Mobile Developer | Mentor
-          at Catapulta.club @ismaelmoreiraa | Prof. na DIO"
+          accessibilityLabel="Descrição: Software engineer"
           style={[style.defaultText, style.description]}>
-          Software engineer | Leader tech at Fleye | Mobile Developer | Mentor
-          at Catapulta.club @ismaelmoreiraa | Prof. na DIO
+          Software engineer
         </Text>
 
         <Pressable onPress={handlePressGoToGithub}>
